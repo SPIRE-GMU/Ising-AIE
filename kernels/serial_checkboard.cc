@@ -195,6 +195,19 @@ float time1=get_cycles();
         if (expand(-beta*sum)> 16*rand(seed)){
             s[k] = stmp;
             energy_now = new_energy;
+            if(k<32){
+                xdnv[k+32] = s[k];
+                xupv[k+32] = s[k];
+                yupv[k+31] = s[k];
+                ydnv[k+33] = s[k];
+            }else {
+                xdnv[k-32] = s[k];
+                xupv[k-32] = s[k];
+                yupv[k-33] = s[k];
+                ydnv[k-31] = s[k];
+            }
+            
+            
         }
 
         magv = operator-(magv,magv);
