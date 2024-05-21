@@ -60,7 +60,7 @@ inline float expand(float x){
 
 
 
-void serial_checkboard(  input_stream_float* din, output_stream_float* dout ){
+void para_checkboard(  input_stream_float* din, output_stream_float* dout ){
  
   
     float a1 = readincr(din);
