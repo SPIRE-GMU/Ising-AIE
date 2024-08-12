@@ -1,1 +1,1 @@
-This repository contains the source code for the paper IMPA: Efficient Hardware-Software Co-design of Ising Model Processors on Spatial Computing Architectures
+This repository contains the source code for the paper Ising Model Processors on a Spatial Computing Architecture published in MWSCAS 2024. 
